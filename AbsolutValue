@@ -1,0 +1,14 @@
+import java.util.Scanner;
+
+public class absolutvalue {
+    static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        System.out.println("  enter ur value ");
+        int x = sc .nextInt();
+        if( x >= 0){
+            System.out.println(x);
+        }else {
+            System.out.println(-x);
+        }
+    }
+}
