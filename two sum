@@ -1,0 +1,25 @@
+package DSAPRACTISE;
+import java.util.*;
+public class TWOSUM {
+    public static void main(String []args){
+        Scanner sc = new Scanner(System.in);
+        int []arr= {1,2,3,4,5,6,7,8};
+        int left=0;
+        int right=arr.length-1;
+        int k = 9;
+        while(left<right){
+            int sum = arr[left]+arr[right];
+            if(sum==k){
+                System.out.println(arr[left]+" , "+arr[right]);
+                left++;
+                right--;
+            }
+            else if(sum<k){
+                left++;
+            }else{
+
+                right--;
+            }
+        }
+    }
+}
