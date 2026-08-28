@@ -1,0 +1,15 @@
+
+import java.util.Scanner;
+
+public class Smallestmultiple2413 {
+    public static void main (String[]args) {
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Enter ur number ");
+        int n = sc.nextInt();
+        if (n % 2 == 0) {
+            System.out.println( "even h" + n);
+        } else {
+            System.out.println("odd tha" + n*2);
+        }
+    }
+}
